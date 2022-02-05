@@ -1,0 +1,5 @@
+if(EXISTS "/media/Development/cmake_test_example/build/tests/tests[1]_tests.cmake")
+  include("/media/Development/cmake_test_example/build/tests/tests[1]_tests.cmake")
+else()
+  add_test(tests_NOT_BUILT tests_NOT_BUILT)
+endif()

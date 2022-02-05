@@ -1,0 +1,2 @@
+/bin/ar qc libMyProg_lib.a  CMakeFiles/MyProg_lib.dir/main.cpp.o CMakeFiles/MyProg_lib.dir/class.cpp.o
+/bin/ranlib libMyProg_lib.a
