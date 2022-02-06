@@ -1,3 +1,5 @@
+#pragma once
+
 #include <optional>
 
 using namespace std;
