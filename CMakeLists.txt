@@ -2,6 +2,14 @@ cmake_minimum_required(VERSION 3.6)
 
 project(MyApp)
 
+enable_language(CXX)
+
+if (WIN32)
+set(COMPILER_PATH "C:/ProgramData/chocolatey/bin/")
+set(CMAKE_C_COMPILER ${COMPILER_PATH}gcc.exe)
+set(CMAKE_CXX_COMPILER ${COMPILER_PATH}g++.exe)
+endif (WIN32)
+
 enable_testing()
 
 # file(GLOB_RECURSE SOURCES LIST_DIRECTORIES true *.h *.cpp)
