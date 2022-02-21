@@ -1,0 +1,1 @@
+cd ./build && cmake -G "Ninja" .. && cmake --build . --parallel 8 && ./tests/tests

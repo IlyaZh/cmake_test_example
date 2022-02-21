@@ -24,6 +24,8 @@ target_link_libraries(
         MyProg_lib
 )
 
+include_directories(../)
+
 target_compile_features(tests PUBLIC cxx_std_17)
 include(GoogleTest)
 gtest_discover_tests(tests)
